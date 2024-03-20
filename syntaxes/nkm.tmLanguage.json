@@ -7,14 +7,28 @@
 		},
 		{
 			"include": "#strings"
-		}
+		},
+		{
+			"include": "#numbers"
+		},
+		{
+			"include": "#booleans"
+		},
+		{
+			"include": "#function_calls"
+		},
+		{
+      "include": "#comments"
+    }
 	],
 	"repository": {
 		"keywords": {
-			"patterns": [{
-				"name": "keyword.control.nkm",
-				"match": "\\b(if|while|for|return)\\b"
-			}]
+			"patterns": [
+				{
+					"name": "keyword.control.nkm",
+					"match": "\\b(is|sike|big if true|let me cook|reda|cook until|hear me out|a sa7 hear me out)\\b"
+				}
+			]
 		},
 		"strings": {
 			"name": "string.quoted.double.nkm",
@@ -24,6 +38,44 @@
 				{
 					"name": "constant.character.escape.nkm",
 					"match": "\\\\."
+				}
+			]
+		},
+		"numbers": {
+			"patterns": [
+				{
+					"name": "constant.numeric.nkm",
+					"match": "\\b\\d+(\\.\\d+)?\\b"
+				}
+			]
+		},
+		"booleans": {
+			"patterns": [
+				{
+					"name": "constant.language.boolean.nkm",
+					"match": "\\b(W|L)\\b"
+				}
+			]
+		},
+		"function_calls": {
+			"patterns": [
+				{
+					"name": "support.function.nkm",
+					"match": "\\b[a-zA-Z_][a-zA-Z0-9_]*\\b(?=\\()"
+				}
+			]
+		},
+		"comments": {
+			"patterns": [
+				{
+					"name": "comment.line.nkm",
+					"begin": "bs",
+					"end": "$",
+					"patterns": [
+						{
+							"include": "#comments"
+						}
+					]
 				}
 			]
 		}
