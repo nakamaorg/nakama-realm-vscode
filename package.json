@@ -2,7 +2,7 @@
   "name": "nakama-realm",
   "displayName": "nakama-realm",
   "description": "Visual Studio Code support for Nakama Real bs",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "engines": {
     "vscode": "^1.87.0"
   },
