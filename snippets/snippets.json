@@ -1,0 +1,102 @@
+{
+  "Condition statement": {
+    "prefix": [
+      "condition",
+      "big"
+    ],
+    "scope": "nkm",
+    "description": "Generates a condition statement",
+    "body": [
+      "big if true ($1) {",
+      " $2",
+      "} sike {",
+      " $3",
+      "}"
+    ]
+  },
+  "If statement": {
+    "prefix": [
+      "if",
+      "big if"
+    ],
+    "scope": "nkm",
+    "description": "Generates an if statement",
+    "body": [
+      "big if true ($1) {",
+      " $2",
+      "}"
+    ]
+  },
+  "Else statement": {
+    "prefix": [
+      "else",
+      "sike"
+    ],
+    "scope": "nkm",
+    "description": "Generates an else statement",
+    "body": [
+      "sike {",
+      " $1",
+      "}"
+    ]
+  },
+  "Variable declaration statement": {
+    "prefix": [
+      "let",
+      "hear"
+    ],
+    "scope": "nkm",
+    "description": "Generates a variable declaration statement",
+    "body": [
+      "hear me out $1 is $2;"
+    ]
+  },
+  "Constant declaration statement": {
+    "prefix": [
+      "const",
+      "a sa7"
+    ],
+    "scope": "nkm",
+    "description": "Generates a constant declaration statement",
+    "body": [
+      "a sa7 hear me out $1 is $2;"
+    ]
+  },
+  "Return statement": {
+    "prefix": [
+      "return",
+      "reda"
+    ],
+    "scope": "nkm",
+    "description": "Generates a return statement",
+    "body": [
+      "reda $1;"
+    ]
+  },
+  "Function declaration": {
+    "prefix": [
+      "function",
+      "let me"
+    ],
+    "scope": "nkm",
+    "description": "Generates a function declaration statement",
+    "body": [
+      "let me cook $1($2) {",
+      " $3",
+      "}"
+    ]
+  },
+  "While statement": {
+    "prefix": [
+      "while",
+      "cook"
+    ],
+    "scope": "nkm",
+    "description": "Generates a while statement",
+    "body": [
+      "cook until ($1) {",
+      " $2",
+      "}"
+    ]
+  }
+}
