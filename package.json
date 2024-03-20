@@ -7,7 +7,7 @@
     "name": "eoussama"
   },
   "icon": "assets/logo.png",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "scripts": {
     "vsce:package": "pnpm exec vsce package",
     "vsce:publish": "pnpm exec vsce publish",
