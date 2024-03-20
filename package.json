@@ -36,6 +36,10 @@
         "extensions": [
           ".nkm"
         ],
+        "icon": {
+          "dark": "./assets/logo-32x32.png",
+          "light": "./assets/logo-32x32.png"
+        },
         "configuration": "./language-configuration.json"
       }
     ],
