@@ -1,13 +1,14 @@
 {
+  "version": "0.0.6",
   "name": "nakama-realm",
-  "displayName": "nakama-realm",
-  "description": "Visual Studio Code support for Nakama Real bs",
   "publisher": "eoussama",
+  "icon": "assets/logo.png",
+  "displayName": "nakama-realm",
+  "main": "./extension/main.js",
+  "description": "Visual Studio Code support for Nakama Real bs",
   "author": {
     "name": "eoussama"
   },
-  "icon": "assets/logo.png",
-  "version": "0.0.5",
   "scripts": {
     "vsce:package": "pnpm exec vsce package",
     "vsce:publish": "pnpm exec vsce publish",
@@ -55,7 +56,28 @@
         "language": "nkm",
         "path": "./snippets/snippets.json"
       }
-    ]
+    ],
+    "commands": [
+      {
+        "command": "langkama.run",
+        "title": "Run current LangKama script"
+      }
+    ],
+    "menus": {
+      "editor/context": [
+        {
+          "when": "resourceExtname == .nkm",
+          "command": "langkama.run",
+          "group": "navigation"
+        }
+      ],
+      "commandPalette": [
+        {
+          "when": "resourceExtname == .nkm",
+          "command": "langkama.run"
+        }
+      ]
+    }
   },
   "devDependencies": {
     "@vscode/vsce": "^2.24.0",
