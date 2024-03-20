@@ -1,5 +1,5 @@
 .vscode/**
 .vscode-test/**
 .gitignore
-test.nkm
+assets/test.nkm
 vsc-extension-quickstart.md

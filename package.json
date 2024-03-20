@@ -2,11 +2,18 @@
   "name": "nakama-realm",
   "displayName": "nakama-realm",
   "description": "Visual Studio Code support for Nakama Real bs",
-  "version": "0.0.3",
-  "scripts": {
-    "package": "pnpm exec vsce package",
-    "publish": "pnpm exec vsce publish"
+  "publisher": "eoussama",
+  "author": {
+    "name": "eoussama"
   },
+  "icon": "assets/logo.png",
+  "version": "0.0.4",
+  "scripts": {
+    "vsce:package": "pnpm exec vsce package",
+    "vsce:publish": "pnpm exec vsce publish",
+    "vsce": "pnpm vsce:package && pnpm vsce:publish"
+  },
+  "homepage": "https://github.com/nakamaorg/nakama-realm-vscode/README.md",
   "repository": {
     "type": "git",
     "url": "https://github.com/nakamaorg/nakama-realm-vscode"
