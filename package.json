@@ -1,0 +1,29 @@
+{
+  "name": "nakama-realm",
+  "displayName": "nakama-realm",
+  "description": "Visual Studio Code support for Nakama Real bs",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.87.0"
+  },
+  "categories": [
+    "Programming Languages"
+  ],
+  "contributes": {
+    "languages": [{
+      "id": "nkm",
+      "aliases": ["LangKama", "nkm"],
+      "extensions": [".nkm"],
+      "configuration": "./language-configuration.json"
+    }],
+    "grammars": [{
+      "language": "nkm",
+      "scopeName": "source.abc",
+      "path": "./syntaxes/nkm.tmLanguage.json"
+    }]
+  },
+  "devDependencies": {
+    "generator-code": "^1.8.4",
+    "yo": "^5.0.0"
+  }
+}
