@@ -85,6 +85,6 @@
     "yo": "^5.0.0"
   },
   "dependencies": {
-    "@nakamaorg/langkama": "^0.1.2"
+    "@nakamaorg/langkama": "^0.1.3"
   }
 }

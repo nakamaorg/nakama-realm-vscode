@@ -53,6 +53,7 @@ module.exports = {
           this.logError(outputChannel, error);
           this.alertError(vscode, 'LangKama script could not compile!');
         })
+        .on(LangKama.LangKamaEvent.Stdout, stdout => this.logInfo(outputChannel, stdout))
         .on(LangKama.LangKamaEvent.Lexer, () => this.logInfo(outputChannel, `Tokenizing "${fileName}" script...`))
         .on(LangKama.LangKamaEvent.Parser, tokens => this.logInfo(outputChannel, `Parsing "${tokens.length}" tokens...`))
         .on(LangKama.LangKamaEvent.Interpreter, ast => this.logInfo(outputChannel, `Interpreting "${fileName}" script...`))
@@ -99,7 +100,6 @@ module.exports = {
     ];
 
     outputChannel.appendLine(message.join('\n'));
-    process.exit(error.errno);
   },
 
   /**

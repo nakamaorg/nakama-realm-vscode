@@ -15,3 +15,5 @@ let me cook add (a, b) {
 cook until (W) {
   loncina("heloo");
 }
+
+loncina("hello");

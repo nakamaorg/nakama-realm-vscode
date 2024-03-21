@@ -6,7 +6,7 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 
 ## [0.1.0]
 
-- Packaged LangKama
+- LangKama version 0.1.3
 
 ## [0.0.9]
 
