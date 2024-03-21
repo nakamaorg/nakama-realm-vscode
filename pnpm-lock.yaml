@@ -4,6 +4,11 @@ settings:
   autoInstallPeers: true
   excludeLinksFromLockfile: false
 
+dependencies:
+  '@nakamaorg/langkama':
+    specifier: ^0.1.2
+    version: 0.1.2
+
 devDependencies:
   '@vscode/vsce':
     specifier: ^2.24.0
@@ -81,6 +86,14 @@ packages:
     dependencies:
       call-bind: 1.0.7
     dev: true
+
+  /@nakamaorg/langkama@0.1.2:
+    resolution: {integrity: sha512-9YPayjzzflqWCY/vfCVzux8WswlwmcleWGXigL+vvwCJNO1VdGQDmYst9rgxfl50S/T/j6np+OrJdYhhzJZYIg==, tarball: https://npm.pkg.github.com/download/@nakamaorg/langkama/0.1.2/4db25da1f8b9e4d5e482be94ce28b2afec715191}
+    hasBin: true
+    requiresBuild: true
+    dependencies:
+      chalk: 5.3.0
+    dev: false
 
   /@nodelib/fs.scandir@2.1.5:
     resolution: {integrity: sha512-vq24Bq3ym5HEQm2NKCr3yXDwjc7vTsEThRDnkp2DK9p1uqLR+DHurm/NOTo0KG7HYHU7eppKZj3MyqYuMBf62g==}
@@ -1124,7 +1137,6 @@ packages:
   /chalk@5.3.0:
     resolution: {integrity: sha512-dLitG79d+GV1Nb/VYcCDFivJeK1hiukt9QjRNVOsUtTy1rR1YJsmpGGTZ3qJos+uw7WmWF4wUwBd9jxjocFC2w==}
     engines: {node: ^12.17.0 || ^14.13 || >=16.0.0}
-    dev: true
 
   /char-regex@1.0.2:
     resolution: {integrity: sha512-kWWXztvZ5SBQV+eRgKFeh8q5sLuZY2+8WUIzlxWVTg+oGwY14qylx1KbKzHd8P6ZYkAg0xyIDU9JMHhyJMZ1jw==}
