@@ -6,8 +6,8 @@ settings:
 
 dependencies:
   '@nakamaorg/langkama':
-    specifier: ^0.1.4
-    version: 0.1.4
+    specifier: ^0.1.5
+    version: 0.1.5
 
 devDependencies:
   '@vscode/vsce':
@@ -87,8 +87,8 @@ packages:
       call-bind: 1.0.7
     dev: true
 
-  /@nakamaorg/langkama@0.1.4:
-    resolution: {integrity: sha512-nvESMsPQwiJyx/ULDpwHC91zH9ZzZuzdt1aG4wZEsnJMGiHmc7C29IBqbzn9JCw1gB44P2nkyatzWQR/wgdX5Q==, tarball: https://npm.pkg.github.com/download/@nakamaorg/langkama/0.1.4/843743b47186d901ad9387c596361d350b1f0a96}
+  /@nakamaorg/langkama@0.1.5:
+    resolution: {integrity: sha512-37Z3ROCJEWA0ESfIRv288lfjorfsr/zSf4LLJ3+wEWtzUWjHqXQh6QVW4vw8lqB4cPyFTgZ8MYskDE3+GBkeAQ==, tarball: https://npm.pkg.github.com/download/@nakamaorg/langkama/0.1.5/a6b174eca70b2316f80cabf9ae4ab2da915669c0}
     hasBin: true
     dependencies:
       chalk: 5.3.0

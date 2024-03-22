@@ -1,5 +1,10 @@
 # Change Log
 
+## [0.1.2]
+
+- LangKama version 0.1.5
+- Auto closing for brackets
+
 ## [0.1.1]
 
 - LangKama version 0.1.4
