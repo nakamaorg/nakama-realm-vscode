@@ -1,8 +1,10 @@
 # Change Log
 
-All notable changes to the "nakama-realm" extension will be documented in this file.
+## [0.1.1]
 
-Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
+- LangKama version 0.1.4
+- Added snippet for chained if else statements
+- Added syntax highlighting for if else statements
 
 ## [0.1.0]
 

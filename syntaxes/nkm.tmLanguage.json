@@ -26,7 +26,7 @@
 			"patterns": [
 				{
 					"name": "keyword.control.nkm",
-					"match": "\\b(is|sike|big if true|let me cook|reda|cook until|hear me out|a sa7 hear me out)\\b"
+					"match": "\\b(is|sike|jk|big if true|let me cook|reda|cook until|hear me out|a sa7 hear me out)\\b"
 				}
 			]
 		},
