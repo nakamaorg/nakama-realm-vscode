@@ -1,4 +1,4 @@
-# nakama-realm
+# Nakama Realm VSCode
 
 Visual Studio Code support for Nakama Real bs, such as the LangKama programming language.
 
