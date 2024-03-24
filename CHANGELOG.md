@@ -1,5 +1,9 @@
 # Change Log
 
+## [0.1.4]
+
+- Added auto complete for the `bruh` keyword
+
 ## [0.1.3]
 
 - LangKama version 0.1.6

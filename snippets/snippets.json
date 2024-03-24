@@ -64,6 +64,19 @@
       "a sa7 hear me out $1 is $2;"
     ]
   },
+  "Null": {
+    "prefix": [
+      "undefined",
+      "none",
+      "null",
+      "nil"
+    ],
+    "scope": "nkm",
+    "description": "Generates the null keyword",
+    "body": [
+      "bruh$1;"
+    ]
+  },
   "Return statement": {
     "prefix": [
       "return",
