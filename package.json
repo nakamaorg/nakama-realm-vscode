@@ -1,5 +1,5 @@
 {
-  "version": "0.1.2",
+  "version": "0.1.3",
   "name": "nakama-realm",
   "publisher": "eoussama",
   "icon": "assets/logo.png",
@@ -85,6 +85,6 @@
     "yo": "^5.0.0"
   },
   "dependencies": {
-    "@nakamaorg/langkama": "^0.1.5"
+    "@nakamaorg/langkama": "^0.1.6"
   }
 }

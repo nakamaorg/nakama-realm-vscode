@@ -1,5 +1,10 @@
 # Change Log
 
+## [0.1.3]
+
+- LangKama version 0.1.6
+- Added highlighting for the `bruh` keyword
+
 ## [0.1.2]
 
 - LangKama version 0.1.5
